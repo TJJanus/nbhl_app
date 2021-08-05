@@ -1,0 +1,32 @@
+.cardContainer {
+    border: 3px solid blue;
+    height: 25em;
+}
+
+.gameNumber {
+    
+    background-color: gray;
+    color: white;
+    border-radius: 100%;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+.gameTime {
+    border: 2px solid purple;
+    margin-top: 5px;
+}
+.date {
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn btn-primary {
+    color: red;
+}
+@import "~bootstrap/scss/bootstrap";
+

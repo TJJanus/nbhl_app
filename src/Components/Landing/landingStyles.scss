@@ -1,0 +1,103 @@
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 850px;
+  div {
+      flex: 1;
+      
+  }
+    
+}
+
+// .home {
+//     background-color:red;
+// }
+
+// .about {
+//     background-color:green;
+// }
+
+// .play {
+//     background-color:blue;
+// }
+
+img {
+    flex-shrink: 0;
+    min-width: 100%;
+    max-width: 100%;
+    // opacity: 0.6;
+}
+.home {
+    position: relative;
+    width: 100%;
+  }
+
+  .home img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+
+  .about img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+  .play img {
+    width: 100%;
+    height: auto;
+  }
+
+  .play .btn {
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+
+
+
